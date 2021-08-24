@@ -8,4 +8,5 @@
 * Salt?
 * Master password --> XOR with all passwords
 
-# Hash algoritmus lehetosegek
+# How to store passwords secure in a database?
+* https://www.vaadata.com/blog/how-to-securely-store-passwords-in-database/

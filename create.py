@@ -1,5 +1,7 @@
 import mysql.connector
 
+import encrypt
+
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -8,6 +10,13 @@ mydb = mysql.connector.connect(
 )
 
 mycursor = mydb.cursor()
+
+master = "qwerasdf00"
+hashed = encrypt.hash_password(master)
+print(hashed)
+
+
+
 
 #mycursor.execute("CREATE DATABASE PasswordManager")
 #mycursor.execute("SHOW DATABASES")
